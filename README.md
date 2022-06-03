@@ -5,9 +5,9 @@ The Autobiography of Choridah --> On branch *master*
 
 Mobile
 
-![image](https://user-images.githubusercontent.com/66956121/171792769-a91abb90-efba-4890-95ca-7210cf4c1c63.png)
+<img width="960" alt="Screenshot (2331)" src="https://user-images.githubusercontent.com/66956121/171835443-a5872b13-d5d8-4058-93fa-0b0c96560a59.png">
 
 
 Desktop
 
-![image](https://user-images.githubusercontent.com/66956121/171792891-38e71b16-ffb7-4d95-9954-9bee94e36fb5.png)
+<img width="960" alt="Screenshot (2332)" src="https://user-images.githubusercontent.com/66956121/171835495-cd6ec2a3-e5d3-4ae5-ade2-6ae25c9abb47.png">
