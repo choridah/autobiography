@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Quicksand:wght@500&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Dancing+Script:wght@500&family=Quicksand:wght@500&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+header {
+    align-items: center;
+    margin: 0;
+    padding: 16px;
+}
+
+.label-title {
+    padding-top: 0px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+section.col-2 {
+    padding: 24px 16px;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 11px;
+}
+
+#photo {
+    width: 100%;
+    border-radius: 15px;
+    min-width: 130px;
+    max-width: 345px;
+}
+
+.label {
+    color:lightcoral;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.label-info {
+    color:lightcoral;
+    padding: 6px 0px;
+}
+
+.label-education {
+    color:lightcoral;
+    margin: 16px 0px;
+    font-size: 15px;
+    margin-top: 120px;
+    padding-left: 16px;
+}
+
+h5 {
+    padding-bottom: 11px;
+}
+
+.px-1 {
+    padding-left: 16px;
+}
+
+section .info {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 11px;
+}
+
+.list-hobbies {
+    list-style-type: circle;
+    padding-top: 0px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+}
+
+footer {
+    padding: 16px;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+@media screen and (max-width: 599px) {
+    .card {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 11px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 7px 16px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+    }
+    
+    .card-study {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-gap: 11px;
+    }
+    
+    .description {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    body {
+        background-color: azure;
+    }
+    
+    header {
+        display:flex; 
+        align-items: center;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 11px;
+    }
+
+    .label {
+        color:lightcoral;
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .label-education {
+        color:lightcoral;
+        margin: 16px 0px;
+        font-size: 15px;
+        padding-left: 16px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows:10% 90%;
+        row-gap: 11px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 7px 16px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+    }
+
+    .card-study {
+        display: grid;
+    }
+
+    #photo {
+        width: 100%;
+        min-width: 370px;
+        max-width: 430px;
+    }
+
+    .description p {
+        width: 100%;
+        padding: 16px 24px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 11px;
+    }
+
+    .label {
+        color:lightcoral;
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .label-education {
+        color:lightcoral;
+        margin: 16px 0px;
+        font-size: 15px;
+        padding-left: 16px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows:10% 90%;
+        row-gap: 11px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 7px 16px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+    }
+
+    .card-study {
+        display: grid;
+    }
+
+    #photo {
+        width: 100%;
+        min-width: 100px;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-gap: 11px;
+    }
+}
+    
